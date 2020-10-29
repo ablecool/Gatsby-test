@@ -18,9 +18,9 @@ module.exports = {
          * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
          * Example : 'demo.wp-api.org' or 'www.example-site.com'
          */
-        baseUrl: "lab.able.cool",
+        baseUrl: "http://lab.able.cool",
         // The protocol. This can be http or https.
-        protocol: "https",
+        protocol: "http",
         // The rest api route prefix that your WordPress site is using.
         // Sometimes this is modified by WordPress plugins.
         // If not set, it uses the default of "wp-json"
@@ -46,8 +46,8 @@ module.exports = {
         auth: {
           // If auth.user and auth.pass are filled, then the source plugin will be allowed
           // to access endpoints that are protected with .htaccess.
-          htaccess_user: "your-htaccess-username",
-          htaccess_pass: "your-htaccess-password",
+          htaccess_user: "admin",
+          htaccess_pass: "123456",
           htaccess_sendImmediately: false,
 
           // If hostingWPCOM is true then you will need to communicate with wordpress.com API
